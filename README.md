@@ -11,7 +11,7 @@ PhoneGap Build
 Usage:
 --------------
 
-Usage with your javascript code (Images should be inside tmp/**pathOfImage**):
+Usage with your javascript code (Images should be inside tmp/**pathOfDoc**):
 `FullScreenDoc.showDocumentURL(docSrc);`
 
 Platforms:
