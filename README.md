@@ -11,10 +11,10 @@ PhoneGap Build
 Usage:
 --------------
 
-Usage with your javascript code (Images should be inside www/**pathOfImage**):
-`FullScreenImage.showImageURL(imageSrc);`
+Usage with your javascript code (Images should be inside tmp/**pathOfImage**):
+`FullScreenDoc.showDocumentURL(docSrc);`
 
 Platforms:
 --------------
 * iOS ( >= iOS 8)
-Full Screen Document Plugin, open **UIDocumentInteractionController** to show image.  
+Full Screen Document Plugin, open **UIDocumentInteractionController** to show image.
