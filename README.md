@@ -1,7 +1,11 @@
 Full Screen Document Plugin iOS
 =================================
 
-Plugin to show images, pdf, txt files stored in the temporary folder from cordova project and use it with native components. 
+Cordova plugin to show full screen images, pdf, txt files stored in the temporary folder. Also makes it possible to save and share the documents.
+Tested on these files:
+* Images (jpg, png, gif)
+* PDFs
+* .txt files
 
 Installation:
 --------------
@@ -12,9 +16,12 @@ PhoneGap Build
 
 Usage:
 --------------
-
-Usage with your javascript code (Images should be inside tmp/**pathOfDoc**):
+Usage with your javascript code (Documents should be inside tmp/**pathOfDoc**):
 `FullScreenDoc.showDocumentURL(docSrc);`
+
+To get the path to the tmp folder in Cordova use: 
+`cordova.file.tempDirectory`
+
 
 Platforms:
 --------------
