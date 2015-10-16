@@ -27,4 +27,3 @@ To get the path to the tmp folder in Cordova use:
 Platforms:
 --------------
 * iOS ( >= iOS 8)
-Full Screen Document Plugin, open **UIDocumentInteractionController** to show image.
