@@ -1,10 +1,12 @@
 Full Screen Document Plugin iOS
 =================================
 
-Plugin to show images, pdf, txt files from cordova project and use it with native components. 
+Plugin to show images, pdf, txt files stored in the temporary folder from cordova project and use it with native components. 
 
 Installation:
 --------------
+
+`cordova plugin add https://github.com/zobbe/cordova-plugin-fullscreendoc.git`
 
 PhoneGap Build
 
