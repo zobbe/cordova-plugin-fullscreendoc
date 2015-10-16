@@ -2,6 +2,7 @@ Full Screen Document Plugin iOS
 =================================
 
 Cordova plugin to show full screen images, pdf, txt files stored in the temporary folder. Also makes it possible to save and share the documents.
+
 Tested on these files:
 * Images (jpg, png, gif)
 * PDFs
