@@ -1,9 +1,9 @@
 {
-  "name": "dk.pernexus.fullscreendoc",
+  "name": "cordova-plugin-pernexus-fullscreendoc",
   "version": "1.0.0",
   "description": "This plugin allows to view pdf's and images",
   "cordova": {
-    "id": "dk.pernexus.fullscreendoc",
+    "id": "cordova-plugin-pernexus-fullscreendoc",
     "platforms": [
       "ios"
     ]
@@ -14,7 +14,7 @@
   },
   "keywords": [
     "ecosystem:cordova",
-    "cordova-ios",
+    "cordova-ios"
   ],
   "engines": [
     {
