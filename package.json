@@ -1,0 +1,31 @@
+{
+  "name": "dk.pernexus.fullscreendoc",
+  "version": "1.0.0",
+  "description": "This plugin allows to view pdf's and images",
+  "cordova": {
+    "id": "dk.pernexus.fullscreendoc",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zobbe/cordova-plugin-fullscreendoc.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "zobbe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zobbe/cordova-plugin-fullscreendoc/issues"
+  },
+  "homepage": "https://github.com/zobbe/cordova-plugin-fullscreendoc#readme"
+}
