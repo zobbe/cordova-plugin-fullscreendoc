@@ -1,32 +1,26 @@
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    id="dk.pernexus.fullscreendoc"
-    version="1.0.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+           id="dk.pernexus.fullscreendoc"
+      version="1.0.0">
 
-    <name>Full Screen Doc</name>
-
-    <engines>
-        <engine name="cordova" version=">=3.0.0" />
-    </engines>
-
-    <author>Morten Zobbe</author>
-    <description>Show a preview of a document located in the application temp folder</description>
-    <keywords>cordova, image, document, docs, doc, fullscreen, photos, pdf, gallery</keywords>
-
-    <license>MIT</license>
+    <name>Pernexus Fullscreen Document</name>
+    <description>Cordova Pernexus fullscreen document Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,documents,pdf,view,image,images,viewer,document</keywords>
 
     <js-module src="www/fullscreendoc.js" name="FullScreenDoc">
         <clobbers target="window.FullScreenDoc" />
     </js-module>
 
-    <!-- ios -->
-     <platform name="ios">
+    <!-- iOS -->
+    <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="FullScreenDoc">
-                <param name="ios-package" value="FullScreenDoc" />
+                <param name="ios-package" value="FullScreenDoc"/>
             </feature>
         </config-file>
-        <header-file src="src/ios/FullScreenDoc.h" />
+		<header-file src="src/ios/FullScreenDoc.h" />
         <source-file src="src/ios/FullScreenDoc.m" />
     </platform>
+
 </plugin>
